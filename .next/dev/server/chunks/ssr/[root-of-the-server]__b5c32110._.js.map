@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///D:/PROJECTS/LEGEND/PrioritiX/frontend/src/app/dashboard/page.tsx"],"sourcesContent":["export default function DashboardPage() {\r\n  return (\r\n    <div className=\"p-4\">\r\n      <h2 className=\"text-3xl font-bold underline\">PrioritiX Dashboard</h2>\r\n      <p>Here the Eisenhower grid will come.</p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAA+B;;;;;;0BAC7C,8OAAC;0BAAE;;;;;;;;;;;;AAGT"}}]
-}

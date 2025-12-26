@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/PROJECTS/LEGEND/PrioritiX/frontend/src/styles/muiTheme.ts"],"sourcesContent":["import { createTheme } from \"@mui/material/styles\";\r\n\r\nconst theme = createTheme({\r\n  palette: {\r\n    primary: { main: \"#2F80ED\" },\r\n    secondary: { main: \"#00E676\" },\r\n    background: { default: \"#f9fafb\" },\r\n  },\r\n  typography: {\r\n    fontFamily: '\"Inter\", \"Roboto\", \"Poppins\", sans-serif',\r\n  },\r\n});\r\n\r\nexport default theme;\r\n"],"names":[],"mappings":";;;;AAAA;;AAEA,MAAM,QAAQ,IAAA,0NAAW,EAAC;IACxB,SAAS;QACP,SAAS;YAAE,MAAM;QAAU;QAC3B,WAAW;YAAE,MAAM;QAAU;QAC7B,YAAY;YAAE,SAAS;QAAU;IACnC;IACA,YAAY;QACV,YAAY;IACd;AACF;uCAEe"}},
-    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":["file:///D:/PROJECTS/LEGEND/PrioritiX/frontend/src/app/ClientThemeWrapper.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport { ThemeProvider } from \"@mui/material/styles\";\r\nimport { CssBaseline } from \"@mui/material\";\r\nimport theme from \"../styles/muiTheme\";\r\n\r\nexport default function ClientThemeWrapper({\r\n  children,\r\n}: {\r\n  children: React.ReactNode;\r\n}) {\r\n  return (\r\n    <ThemeProvider theme={theme}>\r\n      <CssBaseline />\r\n      {children}\r\n    </ThemeProvider>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;AACA;AAJA;;;;;AAMe,SAAS,mBAAmB,EACzC,QAAQ,EAGT;IACC,qBACE,8OAAC,gOAAa;QAAC,OAAO,oIAAK;;0BACzB,8OAAC,+NAAW;;;;;YACX;;;;;;;AAGP"}}]
-}
